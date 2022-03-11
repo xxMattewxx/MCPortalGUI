@@ -1,9 +1,8 @@
-# Fabric Example Mod
+# Portal GUI mod for Minecraft
 
-## Setup
+## Description
+Allows players to use GUIs such as chat while stuck inside a nether portal. This allows them to execute teleport commands, thus getting unstuck.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## Credits
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Hugely based on Tweakeroo's patches of the game. 
