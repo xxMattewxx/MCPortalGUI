@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "portal-gui",
+  "version": "${version}",
+
+  "name": "Portal GUI mod",
+  "description": "Fuyu would you please go to blue/green and respawn X?",
+  "authors": [
+    "Matt"
+  ],
+  "contact": {
+    "homepage": "https://nftworlds.com",
+    "sources": "Ask Matt in NFTWorlds for it, idk."
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.matt.portalgui.PortalGUIMod"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
